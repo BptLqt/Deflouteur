@@ -13,7 +13,7 @@ The images will be taken on the internet, and will be processing that way :
 
 -> We'll separate of course a training set from a test set
 
--> We'll give in entry the blurred pictures to the auto-encoder, the pictures's informations will be processing through the network's nodes, until the output layer. Then will "show" to the AE the wanted output ( the unblurred image ), will calculate the loss, and use gradient descent in order to ajustate the neurons's weights through backpropagation.
+-> We'll give in entry the blurred pictures to the auto-encoder, the pictures's informations will be processed through the network's nodes, until the output layer. Then will "show" to the AE the wanted output ( the unblurred image ), will calculate the loss, and use gradient descent in order to ajustate the neurons's weights through backpropagation.
 
 -> The auto-encoder will perform many epochs of training (500), throught all images (not mini-batchs)
 
